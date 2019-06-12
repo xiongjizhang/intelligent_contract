@@ -1,0 +1,111 @@
+2019-06-10 15:01:36  [ main:0 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 15:01:36  [ main:12 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 15:01:36  [ main:12 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 15:01:36  [ main:17 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 15:01:36  [ main:17 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 15:01:38  [ main:2363 ] - [ INFO ]  init core library ok use time : 1040
+2019-06-10 15:01:39  [ main:3104 ] - [ INFO ]  init ngram ok use time :736
+2019-06-10 15:02:44  [ main:0 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 15:02:44  [ main:4 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 15:02:44  [ main:4 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 15:02:44  [ main:6 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 15:02:44  [ main:6 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 15:02:46  [ main:2473 ] - [ INFO ]  init core library ok use time : 2067
+2019-06-10 15:02:47  [ main:3101 ] - [ INFO ]  init ngram ok use time :624
+2019-06-10 15:04:17  [ main:0 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 15:04:17  [ main:5 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 15:04:17  [ main:5 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 15:04:17  [ main:6 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 15:04:17  [ main:6 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 15:04:19  [ main:1731 ] - [ INFO ]  init core library ok use time : 1455
+2019-06-10 15:04:19  [ main:2221 ] - [ INFO ]  init ngram ok use time :486
+2019-06-10 15:07:22  [ main:0 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 15:07:22  [ main:4 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 15:07:22  [ main:4 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 15:07:22  [ main:5 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 15:07:22  [ main:5 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 15:07:24  [ main:1943 ] - [ INFO ]  load crf model ok ! use time :1905
+2019-06-10 15:07:24  [ main:1943 ] - [ INFO ]  load crf use time:1935 path is : jar://crf.model
+2019-06-10 15:07:26  [ main:4209 ] - [ INFO ]  init core library ok use time : 2066
+2019-06-10 15:07:26  [ main:4540 ] - [ INFO ]  init ngram ok use time :328
+2019-06-10 15:08:20  [ main:0 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 15:08:20  [ main:4 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 15:08:20  [ main:4 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 15:08:20  [ main:5 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 15:08:20  [ main:5 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 15:08:22  [ main:1876 ] - [ INFO ]  load crf model ok ! use time :1863
+2019-06-10 15:08:22  [ main:1876 ] - [ INFO ]  load crf use time:1869 path is : jar://crf.model
+2019-06-10 15:08:24  [ main:4065 ] - [ INFO ]  init core library ok use time : 2003
+2019-06-10 15:08:25  [ main:4396 ] - [ INFO ]  init ngram ok use time :328
+2019-06-10 15:25:42  [ main:0 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 15:25:42  [ main:6 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 15:25:42  [ main:7 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 15:25:42  [ main:9 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 15:25:42  [ main:9 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 15:25:44  [ main:1928 ] - [ INFO ]  load crf model ok ! use time :1909
+2019-06-10 15:25:44  [ main:1928 ] - [ INFO ]  load crf use time:1916 path is : jar://crf.model
+2019-06-10 15:25:46  [ main:4105 ] - [ INFO ]  init core library ok use time : 1898
+2019-06-10 15:25:46  [ main:4562 ] - [ INFO ]  init ngram ok use time :453
+2019-06-10 15:52:50  [ main:0 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 15:52:50  [ main:5 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 15:52:50  [ main:5 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 15:52:50  [ main:7 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 15:52:50  [ main:7 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 15:52:52  [ main:2009 ] - [ INFO ]  load crf model ok ! use time :1996
+2019-06-10 15:52:52  [ main:2010 ] - [ INFO ]  load crf use time:2001 path is : jar://crf.model
+2019-06-10 15:52:54  [ main:3950 ] - [ INFO ]  init core library ok use time : 1744
+2019-06-10 15:52:55  [ main:4262 ] - [ INFO ]  init ngram ok use time :309
+2019-06-10 15:53:33  [ main:0 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 15:53:33  [ main:8 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 15:53:33  [ main:8 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 15:53:33  [ main:10 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 15:53:33  [ main:11 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 15:53:34  [ main:1807 ] - [ INFO ]  load crf model ok ! use time :1783
+2019-06-10 15:53:34  [ main:1808 ] - [ INFO ]  load crf use time:1793 path is : jar://crf.model
+2019-06-10 15:53:37  [ main:4215 ] - [ INFO ]  init core library ok use time : 2192
+2019-06-10 15:53:37  [ main:4593 ] - [ INFO ]  init ngram ok use time :371
+2019-06-10 15:54:04  [ main:0 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 15:54:04  [ main:4 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 15:54:04  [ main:5 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 15:54:04  [ main:6 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 15:54:04  [ main:6 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 15:54:06  [ main:1650 ] - [ INFO ]  load crf model ok ! use time :1636
+2019-06-10 15:54:06  [ main:1651 ] - [ INFO ]  load crf use time:1642 path is : jar://crf.model
+2019-06-10 15:54:08  [ main:3818 ] - [ INFO ]  init core library ok use time : 1839
+2019-06-10 15:54:09  [ main:4190 ] - [ INFO ]  init ngram ok use time :364
+2019-06-10 15:58:09  [ main:0 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 15:58:09  [ main:4 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 15:58:09  [ main:4 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 15:58:09  [ main:5 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 15:58:09  [ main:6 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 15:58:11  [ main:1890 ] - [ INFO ]  load crf model ok ! use time :1877
+2019-06-10 15:58:11  [ main:1891 ] - [ INFO ]  load crf use time:1883 path is : jar://crf.model
+2019-06-10 15:58:13  [ main:3915 ] - [ INFO ]  init core library ok use time : 1820
+2019-06-10 15:58:13  [ main:4260 ] - [ INFO ]  init ngram ok use time :340
+2019-06-10 15:58:46  [ main:0 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 15:58:46  [ main:4 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 15:58:46  [ main:4 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 15:58:46  [ main:5 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 15:58:46  [ main:5 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 15:58:48  [ main:1873 ] - [ INFO ]  load crf model ok ! use time :1862
+2019-06-10 15:58:48  [ main:1873 ] - [ INFO ]  load crf use time:1866 path is : jar://crf.model
+2019-06-10 15:58:50  [ main:4028 ] - [ INFO ]  init core library ok use time : 1960
+2019-06-10 15:58:51  [ main:4349 ] - [ INFO ]  init ngram ok use time :317
+2019-06-10 16:28:45  [ main:1 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 16:28:45  [ main:4 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 16:28:45  [ main:5 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 16:28:45  [ main:6 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 16:28:45  [ main:6 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 16:28:47  [ main:1612 ] - [ INFO ]  load crf model ok ! use time :1600
+2019-06-10 16:28:47  [ main:1612 ] - [ INFO ]  load crf use time:1604 path is : jar://crf.model
+2019-06-10 16:28:49  [ main:3518 ] - [ INFO ]  init core library ok use time : 1708
+2019-06-10 16:28:49  [ main:3842 ] - [ INFO ]  init ngram ok use time :320
+2019-06-10 16:29:31  [ main:0 ] - [ WARN ]  not find library.properties in classpath use it by default !
+2019-06-10 16:29:31  [ main:5 ] - [ INFO ]  path to stream library/ambiguity.dic
+2019-06-10 16:29:31  [ main:6 ] - [ ERROR ]  Init ambiguity library error :org.ansj.exception.LibraryException:  path :library/ambiguity.dic file:E:\IdeaProjects\intelligent_contract\library\ambiguity.dic not found or can not to read, path: library/ambiguity.dic
+2019-06-10 16:29:31  [ main:8 ] - [ INFO ]  path to stream library/default.dic
+2019-06-10 16:29:31  [ main:8 ] - [ ERROR ]  Init dic library error :org.ansj.exception.LibraryException:  path :library/default.dic file:E:\IdeaProjects\intelligent_contract\library\default.dic not found or can not to read, path: library/default.dic
+2019-06-10 16:29:33  [ main:1841 ] - [ INFO ]  load crf model ok ! use time :1819
+2019-06-10 16:29:33  [ main:1841 ] - [ INFO ]  load crf use time:1830 path is : jar://crf.model
+2019-06-10 16:29:35  [ main:3717 ] - [ INFO ]  init core library ok use time : 1693
+2019-06-10 16:29:35  [ main:4053 ] - [ INFO ]  init ngram ok use time :332

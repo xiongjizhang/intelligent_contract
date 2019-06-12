@@ -1,0 +1,779 @@
+2019-05-22 16:01:39  [ main:0 ] - [ DEBUG ]  Java version: 1.8.0_171
+2019-05-22 16:01:39  [ main:15 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2019-05-22 16:01:39  [ main:16 ] - [ DEBUG ]  Java class path: D:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\deploy.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\javaws.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jfxswt.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\management-agent.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\plugin.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;E:\IdeaProjects\intelligent_contract\target\classes;C:\Users\Administrator\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.47\fastjson-1.2.47.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.2\lib\idea_rt.jar;C:\Users\Administrator\.IdeaIC2018.1\system\captureAgent\debugger-agent.jar
+2019-05-22 16:01:39  [ main:16 ] - [ DEBUG ]  Operating system name: Windows 7
+2019-05-22 16:01:39  [ main:16 ] - [ DEBUG ]  Operating system architecture: amd64
+2019-05-22 16:01:39  [ main:17 ] - [ DEBUG ]  Operating system version: 6.1
+2019-05-22 16:01:39  [ main:28 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2019-05-22 16:01:39  [ main:29 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2019-05-22 16:01:39  [ main:29 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2019-05-22 16:01:39  [ main:29 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2019-05-22 16:01:39  [ main:30 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2019-05-22 16:01:39  [ main:30 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2019-05-22 16:01:39  [ main:30 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2019-05-22 16:01:39  [ main:30 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2019-05-22 16:01:39  [ main:31 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2019-05-22 16:01:39  [ main:32 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2019-05-22 16:01:39  [ main:41 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2019-05-22 16:01:39  [ main:45 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2019-05-22 16:01:39  [ main:47 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2019-05-22 16:01:39  [ main:48 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2019-05-22 16:01:39  [ main:49 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2019-05-22 16:01:39  [ main:49 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2019-05-22 16:01:39  [ main:51 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@7f552bd3
+2019-05-22 16:01:39  [ main:52 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2019-05-22 16:01:39  [ main:58 ] - [ DEBUG ]  Set parameter http.connection.timeout = 15000
+2019-05-22 16:01:39  [ main:111 ] - [ DEBUG ]  enter GetMethod(String)
+2019-05-22 16:01:39  [ main:112 ] - [ DEBUG ]  Set parameter http.socket.timeout = 60000
+2019-05-22 16:01:39  [ main:113 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@31c88ec8
+2019-05-22 16:01:39  [ main:113 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2019-05-22 16:01:39  [ main:113 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2019-05-22 16:01:39  [ main:137 ] - [ DEBUG ]  Attempt number 1 to process request
+2019-05-22 16:01:39  [ main:137 ] - [ DEBUG ]  enter HttpConnection.open()
+2019-05-22 16:01:39  [ main:138 ] - [ DEBUG ]  Open connection to chatbot.cn-shanghai.aliyuncs.com:443
+2019-05-22 16:01:40  [ main:754 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:754 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:755 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:755 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2019-05-22 16:01:40  [ main:756 ] - [ DEBUG ]  >> "GET /?AccessKeyId=LTAIUzHm83TGI0Gz&Action=Chat&Format=json&InstanceId=chatbot-cn-0pp14yt01000av&SignatureMethod=HMAC-SHA1&SignatureNonce=1558512099168&SignatureVersion=1.0&Timestamp=2019-05-22T08%3A01%3A39Z&Utterance=%E6%B3%A8%E5%86%8C%E8%B4%A6%E6%88%B7&Version=2017-10-11&Signature=zf+4LhtQGhCTpY3Oyi967hXQBp8= HTTP/1.1[\r][\n]"
+2019-05-22 16:01:40  [ main:757 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2019-05-22 16:01:40  [ main:757 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:01:40  [ main:757 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:01:40  [ main:757 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2019-05-22 16:01:40  [ main:767 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:767 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:768 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:769 ] - [ DEBUG ]  Adding Host request header
+2019-05-22 16:01:40  [ main:769 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:781 ] - [ DEBUG ]  enter HttpState.getCookies()
+2019-05-22 16:01:40  [ main:782 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2019-05-22 16:01:40  [ main:782 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:782 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2019-05-22 16:01:40  [ main:783 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2019-05-22 16:01:40  [ main:783 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:01:40  [ main:783 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:01:40  [ main:784 ] - [ DEBUG ]  >> "Host: chatbot.cn-shanghai.aliyuncs.com[\r][\n]"
+2019-05-22 16:01:40  [ main:784 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2019-05-22 16:01:40  [ main:784 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:01:40  [ main:784 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:01:40  [ main:785 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2019-05-22 16:01:40  [ main:785 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:01:40  [ main:785 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:01:40  [ main:785 ] - [ DEBUG ]  >> "[\r][\n]"
+2019-05-22 16:01:40  [ main:786 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2019-05-22 16:01:40  [ main:916 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:917 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:917 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2019-05-22 16:01:40  [ main:918 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:01:40  [ main:919 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:01:40  [ main:987 ] - [ DEBUG ]  << "HTTP/1.1 400 Bad Request[\r][\n]"
+2019-05-22 16:01:40  [ main:988 ] - [ DEBUG ]  << "HTTP/1.1 400 Bad Request[\r][\n]"
+2019-05-22 16:01:40  [ main:989 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2019-05-22 16:01:40  [ main:989 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2019-05-22 16:01:40  [ main:989 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2019-05-22 16:01:40  [ main:989 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:01:40  [ main:989 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:01:40  [ main:990 ] - [ DEBUG ]  << "Date: Wed, 22 May 2019 08:01:42 GMT[\r][\n]"
+2019-05-22 16:01:40  [ main:990 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:01:40  [ main:990 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:01:40  [ main:990 ] - [ DEBUG ]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-05-22 16:01:40  [ main:990 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:01:40  [ main:990 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:01:40  [ main:990 ] - [ DEBUG ]  << "Content-Length: 665[\r][\n]"
+2019-05-22 16:01:40  [ main:991 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:01:40  [ main:991 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:01:40  [ main:991 ] - [ DEBUG ]  << "Connection: keep-alive[\r][\n]"
+2019-05-22 16:01:40  [ main:991 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:01:40  [ main:991 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:01:40  [ main:991 ] - [ DEBUG ]  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-22 16:01:40  [ main:991 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:01:40  [ main:992 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:01:40  [ main:992 ] - [ DEBUG ]  << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2019-05-22 16:01:40  [ main:992 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:01:40  [ main:992 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:01:40  [ main:993 ] - [ DEBUG ]  << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2019-05-22 16:01:40  [ main:993 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:01:40  [ main:996 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:01:40  [ main:996 ] - [ DEBUG ]  << "Access-Control-Max-Age: 172800[\r][\n]"
+2019-05-22 16:01:40  [ main:997 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:01:40  [ main:997 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:01:40  [ main:997 ] - [ DEBUG ]  << "Server: Jetty(7.2.2.v20101205)[\r][\n]"
+2019-05-22 16:01:40  [ main:998 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:01:40  [ main:998 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:01:40  [ main:998 ] - [ DEBUG ]  << "[\r][\n]"
+2019-05-22 16:01:40  [ main:998 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:998 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:998 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2019-05-22 16:01:40  [ main:998 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2019-05-22 16:01:40  [ main:999 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2019-05-22 16:01:40  [ main:999 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2019-05-22 16:01:40  [ main:1001 ] - [ DEBUG ]  << "{"Recommend":"https://error-center.aliyun.com/status/search?Keyword=SignatureDoesNotMatch&source=PopGw","Message":"Specified signature is not matched with our calculation. server string to sign is:GET&%2F&AccessKeyId%3DLTAIUzHm83TGI0Gz%26Action%3DChat%26Format%3Djson%26InstanceId%3Dchatbot-cn-0pp14yt01000av%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D1558512099168%26SignatureVersion%3D1.0%26Timestamp%3D2019-05-22T08%253A01%253A39Z%26Utterance%3D%25E6%25B3%25A8%25E5%2586%258C%25E8%25B4%25A6%25E6%2588%25B7%26Version%3D2017-10-11","RequestId":"3024EBCF-E635-48C3-B26F-04ECE60C4521","HostId":"chatbot.cn-shanghai.aliyuncs.com","Code":"SignatureDoesNotMatch"}"
+2019-05-22 16:01:40  [ main:1001 ] - [ DEBUG ]  Should NOT close connection in response to directive: keep-alive
+2019-05-22 16:01:40  [ main:1001 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2019-05-22 16:01:40  [ main:1002 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2019-05-22 16:01:40  [ main:1002 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2019-05-22 16:02:57  [ main:0 ] - [ DEBUG ]  Java version: 1.8.0_171
+2019-05-22 16:02:57  [ main:4 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2019-05-22 16:02:57  [ main:5 ] - [ DEBUG ]  Java class path: D:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\deploy.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\javaws.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jfxswt.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\management-agent.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\plugin.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;E:\IdeaProjects\intelligent_contract\target\classes;C:\Users\Administrator\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.47\fastjson-1.2.47.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.2\lib\idea_rt.jar;C:\Users\Administrator\.IdeaIC2018.1\system\captureAgent\debugger-agent.jar
+2019-05-22 16:02:57  [ main:5 ] - [ DEBUG ]  Operating system name: Windows 7
+2019-05-22 16:02:57  [ main:6 ] - [ DEBUG ]  Operating system architecture: amd64
+2019-05-22 16:02:57  [ main:6 ] - [ DEBUG ]  Operating system version: 6.1
+2019-05-22 16:02:57  [ main:17 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2019-05-22 16:02:57  [ main:18 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2019-05-22 16:02:57  [ main:19 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2019-05-22 16:02:57  [ main:19 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2019-05-22 16:02:57  [ main:19 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2019-05-22 16:02:57  [ main:20 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2019-05-22 16:02:57  [ main:20 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2019-05-22 16:02:57  [ main:20 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2019-05-22 16:02:57  [ main:21 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2019-05-22 16:02:57  [ main:21 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2019-05-22 16:02:57  [ main:25 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2019-05-22 16:02:57  [ main:28 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2019-05-22 16:02:57  [ main:30 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2019-05-22 16:02:57  [ main:30 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2019-05-22 16:02:57  [ main:31 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2019-05-22 16:02:57  [ main:31 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2019-05-22 16:02:57  [ main:33 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@7f552bd3
+2019-05-22 16:02:57  [ main:33 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2019-05-22 16:02:57  [ main:40 ] - [ DEBUG ]  Set parameter http.connection.timeout = 15000
+2019-05-22 16:02:57  [ main:77 ] - [ DEBUG ]  enter GetMethod(String)
+2019-05-22 16:02:57  [ main:78 ] - [ DEBUG ]  Set parameter http.socket.timeout = 60000
+2019-05-22 16:02:57  [ main:78 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@31c88ec8
+2019-05-22 16:02:57  [ main:78 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2019-05-22 16:02:57  [ main:79 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2019-05-22 16:02:57  [ main:92 ] - [ DEBUG ]  Attempt number 1 to process request
+2019-05-22 16:02:57  [ main:92 ] - [ DEBUG ]  enter HttpConnection.open()
+2019-05-22 16:02:57  [ main:92 ] - [ DEBUG ]  Open connection to chatbot.cn-shanghai.aliyuncs.com:443
+2019-05-22 16:02:57  [ main:440 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2019-05-22 16:02:57  [ main:440 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2019-05-22 16:02:57  [ main:440 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2019-05-22 16:02:57  [ main:441 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2019-05-22 16:02:57  [ main:442 ] - [ DEBUG ]  >> "GET /?AccessKeyId=LTAIUzHm83TGI0Gz&Action=Chat&Format=json&InstanceId=chatbot-cn-0pp14yt01000av&SignatureMethod=HMAC-SHA1&SignatureNonce=1558512176933&SignatureVersion=1.0&Timestamp=2019-05-22T08%3A02%3A56Z&Utterance=%E6%B3%A8%E5%86%8C%E8%B4%A6%E6%88%B7&Version=2017-10-11&Signature=3MhobUvj+lJcTKroExVS8O5LCW8= HTTP/1.1[\r][\n]"
+2019-05-22 16:02:57  [ main:443 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2019-05-22 16:02:57  [ main:443 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:02:57  [ main:443 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:02:57  [ main:443 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2019-05-22 16:02:57  [ main:467 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2019-05-22 16:02:57  [ main:467 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2019-05-22 16:02:57  [ main:469 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2019-05-22 16:02:57  [ main:469 ] - [ DEBUG ]  Adding Host request header
+2019-05-22 16:02:57  [ main:469 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2019-05-22 16:02:57  [ main:500 ] - [ DEBUG ]  enter HttpState.getCookies()
+2019-05-22 16:02:57  [ main:501 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2019-05-22 16:02:57  [ main:501 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2019-05-22 16:02:57  [ main:502 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2019-05-22 16:02:57  [ main:502 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2019-05-22 16:02:57  [ main:503 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:02:57  [ main:503 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:02:57  [ main:503 ] - [ DEBUG ]  >> "Host: chatbot.cn-shanghai.aliyuncs.com[\r][\n]"
+2019-05-22 16:02:57  [ main:504 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2019-05-22 16:02:57  [ main:504 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:02:57  [ main:504 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:02:57  [ main:504 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2019-05-22 16:02:57  [ main:505 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:02:57  [ main:505 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:02:57  [ main:505 ] - [ DEBUG ]  >> "[\r][\n]"
+2019-05-22 16:02:57  [ main:505 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2019-05-22 16:02:58  [ main:670 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2019-05-22 16:02:58  [ main:671 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2019-05-22 16:02:58  [ main:671 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2019-05-22 16:02:58  [ main:672 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:02:58  [ main:672 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:02:58  [ main:734 ] - [ DEBUG ]  << "HTTP/1.1 400 Bad Request[\r][\n]"
+2019-05-22 16:02:58  [ main:735 ] - [ DEBUG ]  << "HTTP/1.1 400 Bad Request[\r][\n]"
+2019-05-22 16:02:58  [ main:736 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2019-05-22 16:02:58  [ main:737 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2019-05-22 16:02:58  [ main:737 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2019-05-22 16:02:58  [ main:737 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:02:58  [ main:737 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:02:58  [ main:737 ] - [ DEBUG ]  << "Date: Wed, 22 May 2019 08:02:59 GMT[\r][\n]"
+2019-05-22 16:02:58  [ main:738 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:02:58  [ main:738 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:02:58  [ main:738 ] - [ DEBUG ]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-05-22 16:02:58  [ main:738 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:02:58  [ main:738 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:02:58  [ main:738 ] - [ DEBUG ]  << "Content-Length: 665[\r][\n]"
+2019-05-22 16:02:58  [ main:738 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:02:58  [ main:738 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:02:58  [ main:739 ] - [ DEBUG ]  << "Connection: keep-alive[\r][\n]"
+2019-05-22 16:02:58  [ main:739 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:02:58  [ main:739 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:02:58  [ main:739 ] - [ DEBUG ]  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-22 16:02:58  [ main:739 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:02:58  [ main:739 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:02:58  [ main:739 ] - [ DEBUG ]  << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2019-05-22 16:02:58  [ main:740 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:02:58  [ main:740 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:02:58  [ main:740 ] - [ DEBUG ]  << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2019-05-22 16:02:58  [ main:740 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:02:58  [ main:744 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:02:58  [ main:744 ] - [ DEBUG ]  << "Access-Control-Max-Age: 172800[\r][\n]"
+2019-05-22 16:02:58  [ main:744 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:02:58  [ main:744 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:02:58  [ main:745 ] - [ DEBUG ]  << "Server: Jetty(7.2.2.v20101205)[\r][\n]"
+2019-05-22 16:02:58  [ main:745 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:02:58  [ main:745 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:02:58  [ main:745 ] - [ DEBUG ]  << "[\r][\n]"
+2019-05-22 16:02:58  [ main:745 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2019-05-22 16:02:58  [ main:745 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2019-05-22 16:02:58  [ main:745 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2019-05-22 16:02:58  [ main:746 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2019-05-22 16:02:58  [ main:746 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2019-05-22 16:02:58  [ main:747 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2019-05-22 16:02:58  [ main:748 ] - [ DEBUG ]  << "{"Recommend":"https://error-center.aliyun.com/status/search?Keyword=SignatureDoesNotMatch&source=PopGw","Message":"Specified signature is not matched with our calculation. server string to sign is:GET&%2F&AccessKeyId%3DLTAIUzHm83TGI0Gz%26Action%3DChat%26Format%3Djson%26InstanceId%3Dchatbot-cn-0pp14yt01000av%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D1558512176933%26SignatureVersion%3D1.0%26Timestamp%3D2019-05-22T08%253A02%253A56Z%26Utterance%3D%25E6%25B3%25A8%25E5%2586%258C%25E8%25B4%25A6%25E6%2588%25B7%26Version%3D2017-10-11","RequestId":"947B30B5-020F-4B9D-AD1B-058AFC482847","HostId":"chatbot.cn-shanghai.aliyuncs.com","Code":"SignatureDoesNotMatch"}"
+2019-05-22 16:02:58  [ main:748 ] - [ DEBUG ]  Should NOT close connection in response to directive: keep-alive
+2019-05-22 16:02:58  [ main:749 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2019-05-22 16:02:58  [ main:749 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2019-05-22 16:02:58  [ main:749 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2019-05-22 16:03:12  [ main:0 ] - [ DEBUG ]  Java version: 1.8.0_171
+2019-05-22 16:03:12  [ main:3 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2019-05-22 16:03:12  [ main:4 ] - [ DEBUG ]  Java class path: D:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\deploy.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\javaws.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jfxswt.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\management-agent.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\plugin.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;E:\IdeaProjects\intelligent_contract\target\classes;C:\Users\Administrator\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.47\fastjson-1.2.47.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.2\lib\idea_rt.jar;C:\Users\Administrator\.IdeaIC2018.1\system\captureAgent\debugger-agent.jar
+2019-05-22 16:03:12  [ main:4 ] - [ DEBUG ]  Operating system name: Windows 7
+2019-05-22 16:03:12  [ main:4 ] - [ DEBUG ]  Operating system architecture: amd64
+2019-05-22 16:03:12  [ main:5 ] - [ DEBUG ]  Operating system version: 6.1
+2019-05-22 16:03:12  [ main:13 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2019-05-22 16:03:12  [ main:14 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2019-05-22 16:03:12  [ main:14 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2019-05-22 16:03:12  [ main:14 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2019-05-22 16:03:12  [ main:14 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2019-05-22 16:03:12  [ main:15 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2019-05-22 16:03:12  [ main:15 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2019-05-22 16:03:12  [ main:15 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2019-05-22 16:03:12  [ main:15 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2019-05-22 16:03:12  [ main:15 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2019-05-22 16:03:12  [ main:27 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2019-05-22 16:03:12  [ main:30 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2019-05-22 16:03:12  [ main:32 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2019-05-22 16:03:12  [ main:33 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2019-05-22 16:03:12  [ main:33 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2019-05-22 16:03:12  [ main:34 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2019-05-22 16:03:12  [ main:36 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@3eb7fc54
+2019-05-22 16:03:12  [ main:36 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2019-05-22 16:03:12  [ main:43 ] - [ DEBUG ]  Set parameter http.connection.timeout = 15000
+2019-05-22 16:03:12  [ main:76 ] - [ DEBUG ]  enter GetMethod(String)
+2019-05-22 16:03:12  [ main:76 ] - [ DEBUG ]  Set parameter http.socket.timeout = 60000
+2019-05-22 16:03:12  [ main:77 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@3daa422a
+2019-05-22 16:03:12  [ main:77 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2019-05-22 16:03:12  [ main:77 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2019-05-22 16:03:12  [ main:89 ] - [ DEBUG ]  Attempt number 1 to process request
+2019-05-22 16:03:12  [ main:89 ] - [ DEBUG ]  enter HttpConnection.open()
+2019-05-22 16:03:12  [ main:89 ] - [ DEBUG ]  Open connection to chatbot.cn-shanghai.aliyuncs.com:443
+2019-05-22 16:03:13  [ main:383 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:383 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:384 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:384 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2019-05-22 16:03:13  [ main:386 ] - [ DEBUG ]  >> "GET /?AccessKeyId=LTAIUzHm83TGI0Gz&Action=Chat&Format=json&InstanceId=chatbot-cn-0pp14yt01000av&SignatureMethod=HMAC-SHA1&SignatureNonce=1558512192387&SignatureVersion=1.0&Timestamp=2019-05-22T08%3A03%3A12Z&Utterance=%E6%B3%A8%E5%86%8C%E8%B4%A6%E6%88%B7&Version=2017-10-11&Signature=cjeVHcUtkuPdgCYwwD+I62e4aEk= HTTP/1.1[\r][\n]"
+2019-05-22 16:03:13  [ main:386 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2019-05-22 16:03:13  [ main:386 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:03:13  [ main:386 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:03:13  [ main:387 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2019-05-22 16:03:13  [ main:387 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:387 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:402 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:403 ] - [ DEBUG ]  Adding Host request header
+2019-05-22 16:03:13  [ main:404 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:416 ] - [ DEBUG ]  enter HttpState.getCookies()
+2019-05-22 16:03:13  [ main:416 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2019-05-22 16:03:13  [ main:416 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:416 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2019-05-22 16:03:13  [ main:417 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2019-05-22 16:03:13  [ main:417 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:03:13  [ main:417 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:03:13  [ main:417 ] - [ DEBUG ]  >> "Host: chatbot.cn-shanghai.aliyuncs.com[\r][\n]"
+2019-05-22 16:03:13  [ main:418 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2019-05-22 16:03:13  [ main:418 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:03:13  [ main:418 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:03:13  [ main:418 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2019-05-22 16:03:13  [ main:419 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:03:13  [ main:419 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:03:13  [ main:419 ] - [ DEBUG ]  >> "[\r][\n]"
+2019-05-22 16:03:13  [ main:420 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2019-05-22 16:03:13  [ main:564 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:565 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:566 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2019-05-22 16:03:13  [ main:568 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:03:13  [ main:569 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:03:13  [ main:620 ] - [ DEBUG ]  << "HTTP/1.1 400 Bad Request[\r][\n]"
+2019-05-22 16:03:13  [ main:620 ] - [ DEBUG ]  << "HTTP/1.1 400 Bad Request[\r][\n]"
+2019-05-22 16:03:13  [ main:623 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2019-05-22 16:03:13  [ main:624 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2019-05-22 16:03:13  [ main:624 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2019-05-22 16:03:13  [ main:624 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:03:13  [ main:625 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:03:13  [ main:625 ] - [ DEBUG ]  << "Date: Wed, 22 May 2019 08:03:15 GMT[\r][\n]"
+2019-05-22 16:03:13  [ main:625 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:03:13  [ main:626 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:03:13  [ main:626 ] - [ DEBUG ]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-05-22 16:03:13  [ main:626 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:03:13  [ main:626 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:03:13  [ main:627 ] - [ DEBUG ]  << "Content-Length: 665[\r][\n]"
+2019-05-22 16:03:13  [ main:627 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:03:13  [ main:627 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:03:13  [ main:627 ] - [ DEBUG ]  << "Connection: keep-alive[\r][\n]"
+2019-05-22 16:03:13  [ main:627 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:03:13  [ main:628 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:03:13  [ main:628 ] - [ DEBUG ]  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-22 16:03:13  [ main:628 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:03:13  [ main:628 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:03:13  [ main:628 ] - [ DEBUG ]  << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2019-05-22 16:03:13  [ main:629 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:03:13  [ main:629 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:03:13  [ main:629 ] - [ DEBUG ]  << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2019-05-22 16:03:13  [ main:629 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:03:13  [ main:630 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:03:13  [ main:630 ] - [ DEBUG ]  << "Access-Control-Max-Age: 172800[\r][\n]"
+2019-05-22 16:03:13  [ main:630 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:03:13  [ main:630 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:03:13  [ main:630 ] - [ DEBUG ]  << "Server: Jetty(7.2.2.v20101205)[\r][\n]"
+2019-05-22 16:03:13  [ main:631 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:03:13  [ main:631 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:03:13  [ main:631 ] - [ DEBUG ]  << "[\r][\n]"
+2019-05-22 16:03:13  [ main:631 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:632 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:632 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2019-05-22 16:03:13  [ main:632 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2019-05-22 16:03:13  [ main:632 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2019-05-22 16:03:13  [ main:635 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2019-05-22 16:03:13  [ main:639 ] - [ DEBUG ]  << "{"Recommend":"https://error-center.aliyun.com/status/search?Keyword=SignatureDoesNotMatch&source=PopGw","Message":"Specified signature is not matched with our calculation. server string to sign is:GET&%2F&AccessKeyId%3DLTAIUzHm83TGI0Gz%26Action%3DChat%26Format%3Djson%26InstanceId%3Dchatbot-cn-0pp14yt01000av%26SignatureMethod%3DHMAC-SHA1%26SignatureNonce%3D1558512192387%26SignatureVersion%3D1.0%26Timestamp%3D2019-05-22T08%253A03%253A12Z%26Utterance%3D%25E6%25B3%25A8%25E5%2586%258C%25E8%25B4%25A6%25E6%2588%25B7%26Version%3D2017-10-11","RequestId":"650E4351-C765-4C70-8845-87A4190B1DA1","HostId":"chatbot.cn-shanghai.aliyuncs.com","Code":"SignatureDoesNotMatch"}"
+2019-05-22 16:03:13  [ main:640 ] - [ DEBUG ]  Should NOT close connection in response to directive: keep-alive
+2019-05-22 16:03:13  [ main:640 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2019-05-22 16:03:13  [ main:640 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2019-05-22 16:03:13  [ main:640 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2019-05-22 16:04:26  [ main:1 ] - [ DEBUG ]  Java version: 1.8.0_171
+2019-05-22 16:04:26  [ main:4 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+2019-05-22 16:04:26  [ main:4 ] - [ DEBUG ]  Java class path: D:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\deploy.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\javaws.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jfxswt.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\management-agent.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\plugin.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;E:\IdeaProjects\intelligent_contract\target\classes;C:\Users\Administrator\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.47\fastjson-1.2.47.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.2\lib\idea_rt.jar;C:\Users\Administrator\.IdeaIC2018.1\system\captureAgent\debugger-agent.jar
+2019-05-22 16:04:26  [ main:5 ] - [ DEBUG ]  Operating system name: Windows 7
+2019-05-22 16:04:26  [ main:5 ] - [ DEBUG ]  Operating system architecture: amd64
+2019-05-22 16:04:26  [ main:5 ] - [ DEBUG ]  Operating system version: 6.1
+2019-05-22 16:04:26  [ main:14 ] - [ DEBUG ]  SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2019-05-22 16:04:26  [ main:14 ] - [ DEBUG ]  SunRsaSign 1.8: Sun RSA signature provider
+2019-05-22 16:04:26  [ main:15 ] - [ DEBUG ]  SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2019-05-22 16:04:26  [ main:15 ] - [ DEBUG ]  SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+2019-05-22 16:04:26  [ main:15 ] - [ DEBUG ]  SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2019-05-22 16:04:26  [ main:15 ] - [ DEBUG ]  SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+2019-05-22 16:04:26  [ main:16 ] - [ DEBUG ]  SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2019-05-22 16:04:26  [ main:16 ] - [ DEBUG ]  XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+2019-05-22 16:04:26  [ main:16 ] - [ DEBUG ]  SunPCSC 1.8: Sun PC/SC provider
+2019-05-22 16:04:26  [ main:16 ] - [ DEBUG ]  SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+2019-05-22 16:04:26  [ main:20 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+2019-05-22 16:04:26  [ main:23 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+2019-05-22 16:04:26  [ main:25 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2019-05-22 16:04:26  [ main:26 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+2019-05-22 16:04:26  [ main:26 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+2019-05-22 16:04:26  [ main:26 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+2019-05-22 16:04:26  [ main:28 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@7f552bd3
+2019-05-22 16:04:26  [ main:28 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2019-05-22 16:04:26  [ main:35 ] - [ DEBUG ]  Set parameter http.connection.timeout = 15000
+2019-05-22 16:04:26  [ main:64 ] - [ DEBUG ]  enter GetMethod(String)
+2019-05-22 16:04:26  [ main:65 ] - [ DEBUG ]  Set parameter http.socket.timeout = 60000
+2019-05-22 16:04:26  [ main:65 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@31c88ec8
+2019-05-22 16:04:26  [ main:65 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+2019-05-22 16:04:26  [ main:66 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2019-05-22 16:04:26  [ main:111 ] - [ DEBUG ]  Attempt number 1 to process request
+2019-05-22 16:04:26  [ main:111 ] - [ DEBUG ]  enter HttpConnection.open()
+2019-05-22 16:04:26  [ main:112 ] - [ DEBUG ]  Open connection to chatbot.cn-shanghai.aliyuncs.com:443
+2019-05-22 16:04:27  [ main:391 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:392 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:392 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:393 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2019-05-22 16:04:27  [ main:400 ] - [ DEBUG ]  >> "GET /?AccessKeyId=LTAIUzHm83TGI0Gz&Action=Chat&Format=json&InstanceId=chatbot-cn-0pp14yt01000av&SignatureMethod=HMAC-SHA1&SignatureNonce=1558512266317&SignatureVersion=1.0&Timestamp=2019-05-22T08%3A04%3A26Z&Utterance=%E6%B3%A8%E5%86%8C%E8%B4%A6%E6%88%B7&Version=2017-10-11&Signature=nGTwV8clNWwDaBpLR8/Z0lnRyiQ= HTTP/1.1[\r][\n]"
+2019-05-22 16:04:27  [ main:401 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2019-05-22 16:04:27  [ main:401 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:04:27  [ main:401 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:04:27  [ main:402 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2019-05-22 16:04:27  [ main:417 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:417 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:418 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:418 ] - [ DEBUG ]  Adding Host request header
+2019-05-22 16:04:27  [ main:419 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:432 ] - [ DEBUG ]  enter HttpState.getCookies()
+2019-05-22 16:04:27  [ main:432 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2019-05-22 16:04:27  [ main:432 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:433 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+2019-05-22 16:04:27  [ main:433 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2019-05-22 16:04:27  [ main:437 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:04:27  [ main:438 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:04:27  [ main:438 ] - [ DEBUG ]  >> "Host: chatbot.cn-shanghai.aliyuncs.com[\r][\n]"
+2019-05-22 16:04:27  [ main:438 ] - [ DEBUG ]  enter HttpConnection.print(String)
+2019-05-22 16:04:27  [ main:439 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:04:27  [ main:439 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:04:27  [ main:440 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+2019-05-22 16:04:27  [ main:441 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+2019-05-22 16:04:27  [ main:441 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+2019-05-22 16:04:27  [ main:441 ] - [ DEBUG ]  >> "[\r][\n]"
+2019-05-22 16:04:27  [ main:442 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+2019-05-22 16:04:27  [ main:582 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:583 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:584 ] - [ DEBUG ]  enter HttpConnection.readLine()
+2019-05-22 16:04:27  [ main:585 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:04:27  [ main:587 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:04:27  [ main:761 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-22 16:04:27  [ main:761 ] - [ DEBUG ]  << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-22 16:04:27  [ main:762 ] - [ DEBUG ]  enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2019-05-22 16:04:27  [ main:762 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2019-05-22 16:04:27  [ main:762 ] - [ DEBUG ]  enter HeaderParser.parseHeaders(InputStream, String)
+2019-05-22 16:04:27  [ main:763 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:04:27  [ main:763 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:04:27  [ main:763 ] - [ DEBUG ]  << "Date: Wed, 22 May 2019 08:04:29 GMT[\r][\n]"
+2019-05-22 16:04:27  [ main:763 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:04:27  [ main:763 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:04:27  [ main:763 ] - [ DEBUG ]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-05-22 16:04:27  [ main:763 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:04:27  [ main:764 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:04:27  [ main:764 ] - [ DEBUG ]  << "Content-Length: 320[\r][\n]"
+2019-05-22 16:04:27  [ main:764 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:04:27  [ main:764 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:04:27  [ main:764 ] - [ DEBUG ]  << "Connection: keep-alive[\r][\n]"
+2019-05-22 16:04:27  [ main:764 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:04:27  [ main:764 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:04:27  [ main:764 ] - [ DEBUG ]  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-05-22 16:04:27  [ main:765 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:04:27  [ main:765 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:04:27  [ main:765 ] - [ DEBUG ]  << "Access-Control-Allow-Methods: POST, GET, OPTIONS[\r][\n]"
+2019-05-22 16:04:27  [ main:765 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:04:27  [ main:765 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:04:27  [ main:765 ] - [ DEBUG ]  << "Access-Control-Allow-Headers: X-Requested-With, X-Sequence, _aop_secret, _aop_signature[\r][\n]"
+2019-05-22 16:04:27  [ main:765 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:04:27  [ main:766 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:04:27  [ main:766 ] - [ DEBUG ]  << "Access-Control-Max-Age: 172800[\r][\n]"
+2019-05-22 16:04:27  [ main:766 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:04:27  [ main:766 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:04:27  [ main:766 ] - [ DEBUG ]  << "Server: Jetty(7.2.2.v20101205)[\r][\n]"
+2019-05-22 16:04:27  [ main:766 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+2019-05-22 16:04:27  [ main:766 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+2019-05-22 16:04:27  [ main:766 ] - [ DEBUG ]  << "[\r][\n]"
+2019-05-22 16:04:27  [ main:767 ] - [ DEBUG ]  enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:767 ] - [ DEBUG ]  enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:767 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2019-05-22 16:04:27  [ main:767 ] - [ DEBUG ]  enter HttpMethodBase.readResponseBody(HttpConnection)
+2019-05-22 16:04:27  [ main:767 ] - [ DEBUG ]  enter HttpConnection.getResponseInputStream()
+2019-05-22 16:04:27  [ main:768 ] - [ DEBUG ]  enter HttpMethodBase.canResponseHaveBody(int)
+2019-05-22 16:04:27  [ main:769 ] - [ DEBUG ]  << "{"SessionId":"e2868e037f634cfd8d8d9d2f52b3661f","Messages":[{"Text":{},"Recommends":[{"KnowledgeId":"1000598962","AnswerSource":"RECOMMEND","Title":"[0xe8][0x87][0xaa][0xe5][0x8a][0xa9][0xe5][0xa4][0x87][0xe6][0xa1][0x88][0xe7][0xb3][0xbb][0xe7][0xbb][0x9f][0xe5][0xa6][0x82][0xe4][0xbd][0x95][0xe6][0xb3][0xa8][0xe5][0x86][0x8c][0xef][0xbc][0x9f]"}],"Type":"Recommend","Knowledge":{}}],"MessageId":"59318b9532bb44b68f040ac1c3c87769","RequestId":"6EDA8241-FEC1-4BC1-9B09-2C707B4CF126"}"
+2019-05-22 16:04:27  [ main:770 ] - [ DEBUG ]  Should NOT close connection in response to directive: keep-alive
+2019-05-22 16:04:27  [ main:770 ] - [ DEBUG ]  enter HttpConnection.isResponseAvailable()
+2019-05-22 16:04:27  [ main:770 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+2019-05-22 16:04:27  [ main:770 ] - [ DEBUG ]  Releasing connection back to connection manager.
+2019-05-22 16:04:31  [ main:4504 ] - [ INFO ]  Result Type Recommend!!!
+2019-05-22 16:06:50  [ main:0 ] - [ INFO ]  Result Type Recommend!!!
+2019-05-22 16:07:36  [ main:0 ] - [ INFO ]  Result Type Recommend!!!
+2019-05-22 16:09:50  [ main:0 ] - [ INFO ]  Result Type Recommend!!!
+2019-05-22 16:09:50  [ main:3 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 16:09:50  [ main:3 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 16:11:05  [ main:0 ] - [ INFO ]  Result Type Recommend!!!
+2019-05-22 16:11:05  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 16:11:05  [ main:0 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 16:13:58  [ main:0 ] - [ INFO ]  Result Type Recommend!!!
+2019-05-22 16:13:58  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 16:13:58  [ main:0 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 16:13:58  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598974
+2019-05-22 16:13:58  [ main:0 ] - [ INFO ]  Title: 每个注册账号可以备案多少个主体单位？
+2019-05-22 16:13:58  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598975
+2019-05-22 16:13:58  [ main:1 ] - [ INFO ]  Title: 每个注册账号可以备案多少个网站？
+2019-05-22 16:18:04  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 16:18:04  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 16:18:04  [ main:1 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 16:18:04  [ main:1 ] - [ INFO ]  Summary: 自助备案系统如何注册？
+2019-05-22 16:18:04  [ main:1 ] - [ INFO ]  Content: 自助备案系统如何注册？
+2019-05-22 16:48:44  [ main:1 ] - [ INFO ]  Result Type Text!!!
+2019-05-22 16:48:44  [ main:18 ] - [ INFO ]  Content : 请问您要咨询哪方面的业务？114微站、挂机短信或者备案业务。
+2019-05-22 16:48:44  [ main:18 ] - [ INFO ]  AnswerSource: BotFramework
+2019-05-22 16:48:44  [ main:18 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 16:48:44  [ main:19 ] - [ INFO ]  KnowledgeId: null
+2019-05-22 16:48:44  [ main:19 ] - [ INFO ]  Title: null
+2019-05-22 16:48:44  [ main:19 ] - [ INFO ]  Summary: null
+2019-05-22 16:48:44  [ main:19 ] - [ INFO ]  Content: null
+2019-05-22 16:50:26  [ main:0 ] - [ INFO ]  Result Type Recommend!!!
+2019-05-22 16:50:26  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 16:50:26  [ main:0 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 16:50:26  [ main:0 ] - [ INFO ]  Result Type Text!!!
+2019-05-22 16:50:26  [ main:0 ] - [ INFO ]  Content : null
+2019-05-22 16:50:26  [ main:1 ] - [ INFO ]  AnswerSource: null
+2019-05-22 16:50:26  [ main:1 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 16:50:26  [ main:1 ] - [ INFO ]  KnowledgeId: null
+2019-05-22 16:50:26  [ main:1 ] - [ INFO ]  Title: null
+2019-05-22 16:50:26  [ main:1 ] - [ INFO ]  Summary: null
+2019-05-22 16:50:26  [ main:1 ] - [ INFO ]  Content: null
+2019-05-22 16:52:18  [ main:0 ] - [ INFO ]  Result Type Recommend!!!
+2019-05-22 16:52:18  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 16:52:18  [ main:1 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 16:52:18  [ main:2 ] - [ INFO ]  Result Type Text!!!
+2019-05-22 16:52:18  [ main:2 ] - [ INFO ]  Content : null
+2019-05-22 16:52:18  [ main:2 ] - [ INFO ]  AnswerSource: null
+2019-05-22 16:52:18  [ main:2 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 16:52:18  [ main:2 ] - [ INFO ]  KnowledgeId: null
+2019-05-22 16:52:18  [ main:3 ] - [ INFO ]  Title: null
+2019-05-22 16:52:18  [ main:3 ] - [ INFO ]  Summary: null
+2019-05-22 16:52:18  [ main:3 ] - [ INFO ]  Content: null
+2019-05-22 16:53:30  [ main:0 ] - [ INFO ]  Result Type Recommend!!!
+2019-05-22 16:53:30  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 16:53:30  [ main:0 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 16:53:51  [ main:0 ] - [ INFO ]  Result Type Text!!!
+2019-05-22 16:53:51  [ main:1 ] - [ INFO ]  Content : 请问您要咨询哪方面的业务？114微站、挂机短信或者备案业务。
+2019-05-22 16:53:51  [ main:1 ] - [ INFO ]  AnswerSource: BotFramework
+2019-05-22 16:54:24  [ main:0 ] - [ INFO ]  Result Type Recommend!!!
+2019-05-22 16:54:24  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 16:54:24  [ main:1 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 16:54:41  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 16:54:41  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 16:54:41  [ main:1 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 16:54:41  [ main:1 ] - [ INFO ]  Summary: 自助备案系统如何注册？
+2019-05-22 16:54:41  [ main:1 ] - [ INFO ]  Content: 自助备案系统如何注册？
+2019-05-22 17:18:12  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:18:12  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 17:18:12  [ main:1 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 17:18:12  [ main:1 ] - [ INFO ]  Summary: 自助备案系统如何注册？
+2019-05-22 17:18:12  [ main:1 ] - [ INFO ]  Content: 自助备案系统如何注册？
+2019-05-22 17:20:23  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:20:23  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 17:20:23  [ main:1 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 17:20:23  [ main:1 ] - [ INFO ]  Summary: 自助备案系统如何注册？
+2019-05-22 17:20:23  [ main:1 ] - [ INFO ]  Content: 自助备案系统如何注册？
+2019-05-22 17:21:12  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:21:12  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 17:21:12  [ main:1 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 17:21:12  [ main:1 ] - [ INFO ]  Summary: 自助备案系统如何注册？
+2019-05-22 17:21:12  [ main:1 ] - [ INFO ]  Content: 自助备案系统如何注册？
+2019-05-22 17:22:19  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:22:19  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 17:22:19  [ main:0 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 17:22:19  [ main:0 ] - [ INFO ]  Summary: 自助备案系统如何注册？
+2019-05-22 17:22:19  [ main:0 ] - [ INFO ]  Content: 自助备案系统如何注册？
+2019-05-22 17:22:32  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:22:32  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 17:22:32  [ main:1 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 17:22:32  [ main:1 ] - [ INFO ]  Summary: 自助备案系统如何注册？
+2019-05-22 17:22:32  [ main:1 ] - [ INFO ]  Content: 自助备案系统如何注册？
+2019-05-22 17:33:30  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:33:30  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598959
+2019-05-22 17:33:30  [ main:1 ] - [ INFO ]  Title: “备案域名核验”问题集锦
+2019-05-22 17:33:30  [ main:1 ] - [ INFO ]  Summary: “备案域名核验”问题集锦
+2019-05-22 17:33:30  [ main:1 ] - [ INFO ]  Content: “备案域名核验”问题集锦
+2019-05-22 17:33:30  [ main:1 ] - [ INFO ]  ****************success****************
+2019-05-22 17:33:32  [ main:2507 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:33:32  [ main:2507 ] - [ INFO ]  KnowledgeId: 1000598960
+2019-05-22 17:33:32  [ main:2508 ] - [ INFO ]  Title: “备案短信核验”问题集锦
+2019-05-22 17:33:32  [ main:2508 ] - [ INFO ]  Summary: “备案短信核验”问题集锦
+2019-05-22 17:33:32  [ main:2508 ] - [ INFO ]  Content: “备案短信核验”问题集锦
+2019-05-22 17:33:32  [ main:2509 ] - [ INFO ]  ****************success****************
+2019-05-22 17:33:35  [ main:4800 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:33:35  [ main:4802 ] - [ INFO ]  KnowledgeId: 1000598961
+2019-05-22 17:33:35  [ main:4802 ] - [ INFO ]  Title: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:33:35  [ main:4803 ] - [ INFO ]  Summary: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:33:35  [ main:4803 ] - [ INFO ]  Content: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:33:35  [ main:4803 ] - [ INFO ]  ****************success****************
+2019-05-22 17:34:24  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:34:24  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598959
+2019-05-22 17:34:24  [ main:0 ] - [ INFO ]  Title: “备案域名核验”问题集锦
+2019-05-22 17:34:24  [ main:1 ] - [ INFO ]  Summary: “备案域名核验”问题集锦
+2019-05-22 17:34:24  [ main:1 ] - [ INFO ]  Content: “备案域名核验”问题集锦
+2019-05-22 17:34:24  [ main:1 ] - [ INFO ]  ****************success****************
+2019-05-22 17:34:29  [ main:5305 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:34:29  [ main:5306 ] - [ INFO ]  KnowledgeId: 1000598960
+2019-05-22 17:34:29  [ main:5306 ] - [ INFO ]  Title: “备案短信核验”问题集锦
+2019-05-22 17:34:29  [ main:5306 ] - [ INFO ]  Summary: “备案短信核验”问题集锦
+2019-05-22 17:34:29  [ main:5307 ] - [ INFO ]  Content: “备案短信核验”问题集锦
+2019-05-22 17:34:29  [ main:5307 ] - [ INFO ]  ****************success****************
+2019-05-22 17:34:34  [ main:10597 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:34:34  [ main:10598 ] - [ INFO ]  KnowledgeId: 1000598961
+2019-05-22 17:34:34  [ main:10598 ] - [ INFO ]  Title: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:34:34  [ main:10598 ] - [ INFO ]  Summary: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:34:34  [ main:10614 ] - [ INFO ]  Content: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:34:34  [ main:10614 ] - [ INFO ]  ****************success****************
+2019-05-22 17:35:13  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:35:13  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598959
+2019-05-22 17:35:13  [ main:1 ] - [ INFO ]  Title: “备案域名核验”问题集锦
+2019-05-22 17:35:13  [ main:1 ] - [ INFO ]  Summary: “备案域名核验”问题集锦
+2019-05-22 17:35:13  [ main:1 ] - [ INFO ]  Content: “备案域名核验”问题集锦
+2019-05-22 17:35:13  [ main:1 ] - [ INFO ]  ****************success****************
+2019-05-22 17:35:33  [ main:20325 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:35:33  [ main:20325 ] - [ INFO ]  KnowledgeId: 1000598960
+2019-05-22 17:35:33  [ main:20325 ] - [ INFO ]  Title: “备案短信核验”问题集锦
+2019-05-22 17:35:33  [ main:20326 ] - [ INFO ]  Summary: “备案短信核验”问题集锦
+2019-05-22 17:35:33  [ main:20326 ] - [ INFO ]  Content: “备案短信核验”问题集锦
+2019-05-22 17:35:33  [ main:20327 ] - [ INFO ]  ****************success****************
+2019-05-22 17:39:17  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:39:17  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598959
+2019-05-22 17:39:17  [ main:0 ] - [ INFO ]  Title: “备案域名核验”问题集锦
+2019-05-22 17:39:17  [ main:1 ] - [ INFO ]  Summary: “备案域名核验”问题集锦
+2019-05-22 17:39:17  [ main:1 ] - [ INFO ]  Content: “备案域名核验”问题集锦
+2019-05-22 17:39:17  [ main:1 ] - [ INFO ]  ****************success****************
+2019-05-22 17:39:17  [ main:258 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:39:17  [ main:259 ] - [ INFO ]  KnowledgeId: 1000598960
+2019-05-22 17:39:17  [ main:259 ] - [ INFO ]  Title: “备案短信核验”问题集锦
+2019-05-22 17:39:17  [ main:259 ] - [ INFO ]  Summary: “备案短信核验”问题集锦
+2019-05-22 17:39:17  [ main:259 ] - [ INFO ]  Content: “备案短信核验”问题集锦
+2019-05-22 17:39:17  [ main:260 ] - [ INFO ]  ****************success****************
+2019-05-22 17:39:17  [ main:560 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:39:17  [ main:561 ] - [ INFO ]  KnowledgeId: 1000598961
+2019-05-22 17:39:17  [ main:561 ] - [ INFO ]  Title: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:39:17  [ main:561 ] - [ INFO ]  Summary: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:39:17  [ main:561 ] - [ INFO ]  Content: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:39:17  [ main:561 ] - [ INFO ]  ****************success****************
+2019-05-22 17:39:17  [ main:811 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:39:17  [ main:811 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 17:39:17  [ main:811 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 17:39:17  [ main:812 ] - [ INFO ]  Summary: 自助备案系统如何注册？
+2019-05-22 17:39:17  [ main:812 ] - [ INFO ]  Content: 自助备案系统如何注册？
+2019-05-22 17:39:17  [ main:812 ] - [ INFO ]  ****************success****************
+2019-05-22 17:39:18  [ main:1114 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:39:18  [ main:1115 ] - [ INFO ]  KnowledgeId: 1000598963
+2019-05-22 17:39:18  [ main:1115 ] - [ INFO ]  Title: 自助备案系统登录密码丢失怎么办？
+2019-05-22 17:39:18  [ main:1115 ] - [ INFO ]  Summary: 自助备案系统登录密码丢失怎么办？
+2019-05-22 17:39:18  [ main:1115 ] - [ INFO ]  Content: 自助备案系统登录密码丢失怎么办？
+2019-05-22 17:39:18  [ main:1116 ] - [ INFO ]  ****************success****************
+2019-05-22 17:39:18  [ main:1445 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:39:18  [ main:1446 ] - [ INFO ]  KnowledgeId: 1000598964
+2019-05-22 17:39:18  [ main:1446 ] - [ INFO ]  Title: 如果忘记了电信自助备案系统登录密码保护问题答案，怎么办？
+2019-05-22 17:39:18  [ main:1446 ] - [ INFO ]  Summary: 如果忘记了电信自助备案系统登录密码保护问题答案，怎么办？
+2019-05-22 17:39:18  [ main:1446 ] - [ INFO ]  Content: 如果忘记了电信自助备案系统登录密码保护问题答案，怎么办？
+2019-05-22 17:39:18  [ main:1447 ] - [ INFO ]  ****************success****************
+2019-05-22 17:39:18  [ main:1717 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:39:18  [ main:1718 ] - [ INFO ]  KnowledgeId: 1000598965
+2019-05-22 17:39:18  [ main:1718 ] - [ INFO ]  Title: 怎样设置自助备案系统的密保问题及答案？
+2019-05-22 17:39:18  [ main:1718 ] - [ INFO ]  Summary: 怎样设置自助备案系统的密保问题及答案？
+2019-05-22 17:39:18  [ main:1718 ] - [ INFO ]  Content: 怎样设置自助备案系统的密保问题及答案？
+2019-05-22 17:39:18  [ main:1719 ] - [ INFO ]  ****************success****************
+2019-05-22 17:39:19  [ main:2032 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:39:19  [ main:2036 ] - [ INFO ]  KnowledgeId: 1000598966
+2019-05-22 17:39:19  [ main:2036 ] - [ INFO ]  Title: 客户需要在电信重新备案，那么在其他接入商的备案信息如何快速注销？
+2019-05-22 17:39:19  [ main:2037 ] - [ INFO ]  Summary: 客户需要在电信重新备案，那么在其他接入商的备案信息如何快速注销？
+2019-05-22 17:39:19  [ main:2037 ] - [ INFO ]  Content: 客户需要在电信重新备案，那么在其他接入商的备案信息如何快速注销？
+2019-05-22 17:39:19  [ main:2037 ] - [ INFO ]  ****************success****************
+2019-05-22 17:39:19  [ main:2295 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:39:19  [ main:2296 ] - [ INFO ]  KnowledgeId: 1000598967
+2019-05-22 17:39:19  [ main:2297 ] - [ INFO ]  Title: 为什么要根据IP校验接入地？
+2019-05-22 17:39:19  [ main:2297 ] - [ INFO ]  Summary: 为什么要根据IP校验接入地？
+2019-05-22 17:39:19  [ main:2297 ] - [ INFO ]  Content: 为什么要根据IP校验接入地？
+2019-05-22 17:39:19  [ main:2297 ] - [ INFO ]  ****************success****************
+2019-05-22 17:41:51  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:41:51  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598959
+2019-05-22 17:41:51  [ main:1 ] - [ INFO ]  Title: “备案域名核验”问题集锦
+2019-05-22 17:41:51  [ main:1 ] - [ INFO ]  Summary: “备案域名核验”问题集锦
+2019-05-22 17:41:51  [ main:1 ] - [ INFO ]  Content: “备案域名核验”问题集锦
+2019-05-22 17:41:51  [ main:1 ] - [ INFO ]  ****************success****************
+2019-05-22 17:41:51  [ main:271 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:41:51  [ main:271 ] - [ INFO ]  KnowledgeId: 1000598960
+2019-05-22 17:41:51  [ main:272 ] - [ INFO ]  Title: “备案短信核验”问题集锦
+2019-05-22 17:41:51  [ main:272 ] - [ INFO ]  Summary: “备案短信核验”问题集锦
+2019-05-22 17:41:51  [ main:272 ] - [ INFO ]  Content: “备案短信核验”问题集锦
+2019-05-22 17:41:51  [ main:273 ] - [ INFO ]  ****************success****************
+2019-05-22 17:45:12  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:45:12  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598959
+2019-05-22 17:45:12  [ main:1 ] - [ INFO ]  Title: “备案域名核验”问题集锦
+2019-05-22 17:45:12  [ main:1 ] - [ INFO ]  Summary: “备案域名核验”问题集锦
+2019-05-22 17:45:12  [ main:1 ] - [ INFO ]  Content: “备案域名核验”问题集锦
+2019-05-22 17:45:12  [ main:1 ] - [ INFO ]  ****************success****************
+2019-05-22 17:46:13  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:46:13  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598959
+2019-05-22 17:46:13  [ main:1 ] - [ INFO ]  Title: “备案域名核验”问题集锦
+2019-05-22 17:46:13  [ main:1 ] - [ INFO ]  Summary: “备案域名核验”问题集锦
+2019-05-22 17:46:13  [ main:1 ] - [ INFO ]  Content: “备案域名核验”问题集锦
+2019-05-22 17:46:13  [ main:1 ] - [ INFO ]  ****************success****************
+2019-05-22 17:46:13  [ main:229 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:46:13  [ main:229 ] - [ INFO ]  KnowledgeId: 1000598960
+2019-05-22 17:46:13  [ main:230 ] - [ INFO ]  Title: “备案短信核验”问题集锦
+2019-05-22 17:46:13  [ main:230 ] - [ INFO ]  Summary: “备案短信核验”问题集锦
+2019-05-22 17:46:13  [ main:230 ] - [ INFO ]  Content: “备案短信核验”问题集锦
+2019-05-22 17:46:13  [ main:232 ] - [ INFO ]  ****************success****************
+2019-05-22 17:46:14  [ main:507 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:46:14  [ main:507 ] - [ INFO ]  KnowledgeId: 1000598961
+2019-05-22 17:46:14  [ main:508 ] - [ INFO ]  Title: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:46:14  [ main:508 ] - [ INFO ]  Summary: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:46:14  [ main:508 ] - [ INFO ]  Content: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:46:14  [ main:509 ] - [ INFO ]  ****************success****************
+2019-05-22 17:50:32  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:50:32  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598959
+2019-05-22 17:50:32  [ main:1 ] - [ INFO ]  Title: “备案域名核验”问题集锦
+2019-05-22 17:50:32  [ main:1 ] - [ INFO ]  Summary: “备案域名核验”问题集锦
+2019-05-22 17:50:32  [ main:1 ] - [ INFO ]  Content: “备案域名核验”问题集锦
+2019-05-22 17:50:32  [ main:1 ] - [ INFO ]  ****************success****************
+2019-05-22 17:50:32  [ main:196 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:50:32  [ main:196 ] - [ INFO ]  KnowledgeId: 1000598960
+2019-05-22 17:50:32  [ main:196 ] - [ INFO ]  Title: “备案短信核验”问题集锦
+2019-05-22 17:50:32  [ main:196 ] - [ INFO ]  Summary: “备案短信核验”问题集锦
+2019-05-22 17:50:32  [ main:196 ] - [ INFO ]  Content: “备案短信核验”问题集锦
+2019-05-22 17:50:32  [ main:196 ] - [ INFO ]  ****************success****************
+2019-05-22 17:50:33  [ main:376 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:50:33  [ main:376 ] - [ INFO ]  KnowledgeId: 1000598961
+2019-05-22 17:50:33  [ main:376 ] - [ INFO ]  Title: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:50:33  [ main:377 ] - [ INFO ]  Summary: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:50:33  [ main:377 ] - [ INFO ]  Content: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 17:50:33  [ main:377 ] - [ INFO ]  ****************success****************
+2019-05-22 17:50:33  [ main:602 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:50:33  [ main:603 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 17:50:33  [ main:603 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 17:50:33  [ main:603 ] - [ INFO ]  Summary: 自助备案系统如何注册？
+2019-05-22 17:50:33  [ main:603 ] - [ INFO ]  Content: 自助备案系统如何注册？
+2019-05-22 17:50:33  [ main:604 ] - [ INFO ]  ****************success****************
+2019-05-22 17:50:33  [ main:772 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:50:33  [ main:772 ] - [ INFO ]  KnowledgeId: 1000598963
+2019-05-22 17:50:33  [ main:773 ] - [ INFO ]  Title: 自助备案系统登录密码丢失怎么办？
+2019-05-22 17:50:33  [ main:773 ] - [ INFO ]  Summary: 自助备案系统登录密码丢失怎么办？
+2019-05-22 17:50:33  [ main:774 ] - [ INFO ]  Content: 自助备案系统登录密码丢失怎么办？
+2019-05-22 17:50:33  [ main:774 ] - [ INFO ]  ****************success****************
+2019-05-22 17:50:33  [ main:932 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:50:33  [ main:933 ] - [ INFO ]  KnowledgeId: 1000598964
+2019-05-22 17:50:33  [ main:933 ] - [ INFO ]  Title: 如果忘记了电信自助备案系统登录密码保护问题答案，怎么办？
+2019-05-22 17:50:33  [ main:933 ] - [ INFO ]  Summary: 如果忘记了电信自助备案系统登录密码保护问题答案，怎么办？
+2019-05-22 17:50:33  [ main:933 ] - [ INFO ]  Content: 如果忘记了电信自助备案系统登录密码保护问题答案，怎么办？
+2019-05-22 17:50:33  [ main:933 ] - [ INFO ]  ****************success****************
+2019-05-22 17:55:05  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:55:05  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598959
+2019-05-22 17:55:05  [ main:0 ] - [ INFO ]  Title: “备案域名核验”问题集锦
+2019-05-22 17:55:05  [ main:0 ] - [ INFO ]  Summary: “备案域名核验”问题集锦
+2019-05-22 17:55:05  [ main:0 ] - [ INFO ]  Content: “备案域名核验”问题集锦
+2019-05-22 17:55:05  [ main:1 ] - [ INFO ]  ****************success****************
+2019-05-22 17:55:05  [ main:200 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:55:05  [ main:200 ] - [ INFO ]  KnowledgeId: 1000598960
+2019-05-22 17:55:05  [ main:201 ] - [ INFO ]  Title: “备案短信核验”问题集锦
+2019-05-22 17:55:05  [ main:201 ] - [ INFO ]  Summary: “备案短信核验”问题集锦
+2019-05-22 17:55:05  [ main:201 ] - [ INFO ]  Content: “备案短信核验”问题集锦
+2019-05-22 17:55:05  [ main:201 ] - [ INFO ]  ****************success****************
+2019-05-22 17:55:52  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 17:55:52  [ main:1 ] - [ INFO ]  KnowledgeId: 1000598959
+2019-05-22 17:55:52  [ main:1 ] - [ INFO ]  Title: “备案域名核验”问题集锦
+2019-05-22 17:55:52  [ main:1 ] - [ INFO ]  Summary: “备案域名核验”问题集锦
+2019-05-22 17:55:52  [ main:1 ] - [ INFO ]  Content: “备案域名核验”问题集锦
+2019-05-22 17:55:52  [ main:1 ] - [ INFO ]  ****************success****************
+2019-05-22 18:05:38  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 18:05:38  [ main:44 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 18:05:38  [ main:44 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 18:05:38  [ main:44 ] - [ INFO ]  Summary: 自助备案系统如何注册？
+2019-05-22 18:05:38  [ main:44 ] - [ INFO ]  Content: 自助备案系统如何注册？
+2019-05-22 18:06:27  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 18:06:27  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598959
+2019-05-22 18:06:27  [ main:0 ] - [ INFO ]  Title: “备案域名核验”问题集锦
+2019-05-22 18:06:27  [ main:0 ] - [ INFO ]  Summary: “备案域名核验”问题集锦
+2019-05-22 18:06:27  [ main:0 ] - [ INFO ]  Content: “备案域名核验”问题集锦
+2019-05-22 18:06:27  [ main:1 ] - [ INFO ]  ****************success****************
+2019-05-22 18:06:27  [ main:289 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 18:06:27  [ main:290 ] - [ INFO ]  KnowledgeId: 1000598960
+2019-05-22 18:06:27  [ main:290 ] - [ INFO ]  Title: “备案短信核验”问题集锦
+2019-05-22 18:06:27  [ main:290 ] - [ INFO ]  Summary: “备案短信核验”问题集锦
+2019-05-22 18:06:27  [ main:290 ] - [ INFO ]  Content: “备案短信核验”问题集锦
+2019-05-22 18:06:27  [ main:291 ] - [ INFO ]  ****************success****************
+2019-05-22 18:06:27  [ main:608 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 18:06:27  [ main:608 ] - [ INFO ]  KnowledgeId: 1000598961
+2019-05-22 18:06:27  [ main:608 ] - [ INFO ]  Title: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 18:06:27  [ main:608 ] - [ INFO ]  Summary: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 18:06:27  [ main:608 ] - [ INFO ]  Content: 在未获得管局下发的备案号之前，可以访问吗？
+2019-05-22 18:06:27  [ main:610 ] - [ INFO ]  ****************success****************
+2019-05-22 18:06:28  [ main:880 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 18:06:28  [ main:880 ] - [ INFO ]  KnowledgeId: 1000598962
+2019-05-22 18:06:28  [ main:880 ] - [ INFO ]  Title: 自助备案系统如何注册？
+2019-05-22 18:06:28  [ main:881 ] - [ INFO ]  Summary: 自助备案系统如何注册？
+2019-05-22 18:06:28  [ main:881 ] - [ INFO ]  Content: 自助备案系统如何注册？
+2019-05-22 18:06:28  [ main:881 ] - [ INFO ]  ****************success****************
+2019-05-22 18:06:53  [ main:0 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 18:06:53  [ main:0 ] - [ INFO ]  KnowledgeId: 1000598959
+2019-05-22 18:06:53  [ main:0 ] - [ INFO ]  Title: “备案域名核验”问题集锦
+2019-05-22 18:06:53  [ main:1 ] - [ INFO ]  Summary: “备案域名核验”问题集锦
+2019-05-22 18:06:53  [ main:1 ] - [ INFO ]  Content: “备案域名核验”问题集锦
+2019-05-22 18:06:53  [ main:1 ] - [ INFO ]  ****************success****************
+2019-05-22 18:06:53  [ main:430 ] - [ INFO ]  Result Type Knowledge!!!
+2019-05-22 18:06:53  [ main:430 ] - [ INFO ]  KnowledgeId: 1000598960
+2019-05-22 18:06:53  [ main:430 ] - [ INFO ]  Title: “备案短信核验”问题集锦
+2019-05-22 18:06:53  [ main:431 ] - [ INFO ]  Summary: “备案短信核验”问题集锦
+2019-05-22 18:06:53  [ main:431 ] - [ INFO ]  Content: “备案短信核验”问题集锦
+2019-05-22 18:06:53  [ main:431 ] - [ INFO ]  ****************success****************
