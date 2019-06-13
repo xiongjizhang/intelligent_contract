@@ -38,6 +38,7 @@ public class HanLPDemo {
             System.out.println(termList);
             List<SegToken> segTokenList = segmenter.process(sentence, JiebaSegmenter.SegMode.SEARCH);
             System.out.println(segmenter.process(sentence, JiebaSegmenter.SegMode.SEARCH).toString());
+
             Result result = NlpAnalysis.parse(sentence);
             System.out.println(result.toString());
             Result result1 = ToAnalysis.parse(sentence);
